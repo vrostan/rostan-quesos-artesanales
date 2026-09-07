@@ -1,0 +1,449 @@
+:root{--black:#050505;--cream:#f5f0e7;--paper:#fbf8f1;--warm:#ad7b4c;--yellow:#eadb31;--red:#ed332a;--green:#94a466;--ink:#151711;--gold:#b6752b;--max:1240px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:#111;font-family:'Acumin Extra Condensed','Acumin Concept',Arial Narrow,Arial,sans-serif;font-weight:400}h1,h2,h3{margin:0;line-height:.93;text-transform:uppercase;letter-spacing:-.025em;font-family:'Rostan Sans','Acumin Extra Condensed','Acumin Concept',Arial Narrow,Arial,sans-serif;font-weight:400}h1{font-size:clamp(4rem,10vw,9rem)}h2{font-size:clamp(3rem,6vw,6rem)}h3{font-size:2.4rem}.eyebrow{font-size:.72rem;font-weight:800;letter-spacing:.22em}.dark{color:#333}.topbar{position:absolute;z-index:20;top:0;left:0;width:100%;display:flex;align-items:center;justify-content:space-between;padding:24px 4vw;color:white}.brand img{width:130px;height:70px;object-fit:contain}.topbar nav{display:flex;gap:28px}.topbar a{color:inherit;text-decoration:none;font-size:.78rem;text-transform:uppercase;letter-spacing:.12em}.menu{display:none;background:none;border:0;color:#fff;font-size:1.8rem}.hero{min-height:100svh;background:url('images/hero.jpg') center/cover no-repeat;position:relative;color:#fff;display:flex;align-items:flex-end}.shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.78),rgba(0,0,0,.08) 70%),linear-gradient(0deg,rgba(0,0,0,.45),transparent 50%)}.hero-copy{position:relative;z-index:2;padding:0 5vw 8vh;max-width:1000px}.hero-copy>p:not(.eyebrow){font-size:clamp(1.5rem,3vw,2.5rem);margin:12px 0 30px}.btn{display:inline-block;padding:15px 20px;border:1px solid currentColor;text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;text-decoration:none}.light{color:#fff}.intro,.awards{max-width:var(--max);margin:auto;padding:120px 5vw;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}.lead{font-size:clamp(1.35rem,2.3vw,2rem);line-height:1.4}
+
+/* Historia editorial */
+.history-editorial{background:var(--paper);padding:110px max(4vw,24px) 100px;color:var(--ink)}.history-top{max-width:1440px;margin:0 auto;display:grid;grid-template-columns:minmax(0,.88fr) minmax(0,1.12fr);gap:64px;align-items:start}.history-kicker{color:var(--gold);margin:0 0 22px}.history-copy h2{font-size:clamp(3.2rem,5.8vw,6.6rem);text-transform:none;letter-spacing:-.055em;line-height:.88;margin-bottom:34px}.history-copy>p:not(.eyebrow){font-size:1.08rem;line-height:1.55;margin:0 0 16px;max-width:760px}.history-copy strong{font-weight:760}.history-closing{font-size:1.16rem!important;font-weight:650;margin-top:26px!important}.history-family{margin:0;align-self:start}.history-family img{width:100%;height:auto;display:block;object-fit:contain;border:1px solid rgba(182,117,43,.38);padding:6px;background:#fff}.history-family figcaption{text-align:center;font-size:.9rem;font-style:italic;margin-top:10px;color:#555}.history-archive{max-width:1440px;margin:64px auto 0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:24px 20px;align-items:start}.archive-card{margin:0}.archive-card img{width:100%;height:230px;object-fit:cover;display:block;border:1px solid rgba(182,117,43,.35);padding:4px;background:#fff}.archive-card.portrait img{object-position:center 20%}.archive-card figcaption{padding:12px 4px 0}.archive-card figcaption span{display:block;color:var(--gold);font-size:1.42rem;font-weight:620;line-height:1.05;margin-bottom:6px}.archive-card figcaption small{display:block;font-size:.84rem;line-height:1.35;color:#444}.archive-card.wide{grid-column:span 1}
+
+.feature{display:grid;grid-template-columns:1.15fr .85fr;background:#000;color:#fff}.feature img{width:100%;height:760px;object-fit:cover}.feature>div{padding:10vw 7vw;display:flex;flex-direction:column;justify-content:center}.feature p:not(.eyebrow){font-size:1.15rem;line-height:1.65;max-width:540px}.cheeses{padding:120px 5vw;max-width:var(--max);margin:auto}.section-head{margin-bottom:60px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.card{background:#fff}.card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}.card>div{padding:28px}.card p{line-height:1.5;min-height:48px}.card button{border:0;background:none;padding:12px 0;font-family:'Acumin Extra Condensed','Acumin Concept',Arial Narrow,Arial,sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.08em;cursor:pointer}.cheese-name{font-family:'Rostan Sans','Acumin Concept',Arial,sans-serif!important;font-weight:400!important;letter-spacing:.06em!important;text-transform:uppercase!important;line-height:.95!important}.grid .card h3.cheese-name{font-size:clamp(2.25rem,4vw,3.25rem)}.catalog{margin-top:50px;border-top:1px solid #aaa;padding-top:25px;font-size:1.1rem;line-height:1.6}.awards img{width:100%;max-height:700px;object-fit:cover}.awards p:not(.eyebrow){font-size:1.2rem;line-height:1.6}.contact{background:var(--warm);color:#fff;text-align:center;padding:120px 20px}.contact .mono{width:80px;height:100px;object-fit:contain;margin-bottom:25px}.contact h2{margin:20px 0}.small{opacity:.7}footer{background:#000;color:#fff;display:flex;justify-content:space-between;align-items:center;padding:40px 5vw;font-size:.75rem;letter-spacing:.08em}footer img{width:100px;height:60px;object-fit:contain}.modal{position:fixed;inset:0;background:rgba(0,0,0,.75);display:none;align-items:center;justify-content:center;padding:20px;z-index:100}.modal.show{display:flex}.modal-box{background:var(--cream);max-width:680px;max-height:88vh;overflow:auto;padding:50px;position:relative}.modal-box h2{font-size:4.1rem;margin:10px 0 30px}.modal-box p{line-height:1.6}.modal-box h4{text-transform:uppercase;letter-spacing:.08em;margin:28px 0 5px}.close{position:absolute;right:18px;top:12px;border:0;background:none;font-size:2.4rem;cursor:pointer}.catalog-intro{max-width:720px;font-size:1.1rem;line-height:1.6;margin-top:24px}.weights-note{margin-top:42px;padding-top:22px;border-top:1px solid #aaa;font-size:.9rem;font-style:italic}.modal-box #modal-pack{white-space:normal}.modal-box{scrollbar-width:thin}
+
+@media(max-width:1050px){.history-top{grid-template-columns:1fr;gap:42px}.history-family{max-width:900px}.history-archive{grid-template-columns:repeat(3,minmax(0,1fr))}.archive-card img{height:250px}}
+@media(max-width:760px){.topbar{padding:16px 18px}.brand img{width:100px;height:55px}.topbar nav{display:none;position:absolute;top:75px;left:0;right:0;background:#000;padding:25px;flex-direction:column}.topbar nav.open{display:flex}.menu{display:block}.hero{min-height:86svh;background-position:42% center}.hero-copy{padding:0 22px 55px}.intro,.awards{grid-template-columns:1fr;padding:80px 22px;gap:35px}.history-editorial{padding:76px 20px 70px}.history-copy h2{font-size:clamp(3rem,15vw,4.7rem);margin-bottom:26px}.history-copy>p:not(.eyebrow){font-size:1rem;line-height:1.58}.history-family img{padding:4px}.history-archive{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 14px;margin-top:44px}.archive-card img{height:190px}.archive-card figcaption span{font-size:1.2rem}.archive-card figcaption small{font-size:.78rem}.feature{grid-template-columns:1fr}.feature img{height:58vh}.feature>div{padding:70px 22px}.cheeses{padding:80px 22px}.grid{grid-template-columns:1fr}.card p{min-height:auto}.contact{padding:80px 22px}footer{gap:20px;flex-direction:column}.modal-box{padding:42px 24px}.modal-box h2{font-size:3.2rem}}
+@media(max-width:470px){.history-archive{grid-template-columns:1fr}.archive-card img{height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;background:#fff}.history-family figcaption{font-size:.82rem}.grid .card h3.cheese-name{font-size:2.6rem}}
+/* V4 — páginas independientes */
+h1,h2,h3,.section-head h2,.history-copy h1,.awards-page h1,.contact-page h1{font-family:'Rostan Sans','Acumin Concept',Arial,sans-serif;font-weight:400;letter-spacing:.025em}
+.topbar.inner{position:relative;background:#000}.page-main{min-height:70vh}.text-link{color:#111;text-decoration:none;font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:.8rem}
+.history-editorial.standalone{padding-top:85px}.history-copy h1{font-size:clamp(3.2rem,5.8vw,6.6rem);text-transform:uppercase;line-height:.9;margin:0 0 34px}.history-archive.clean{grid-template-columns:repeat(4,minmax(0,1fr));gap:28px 20px}.history-archive.clean .archive-card img{height:280px}.history-archive.clean .archive-card figcaption{color:#333;font-size:.88rem;line-height:1.35;padding:10px 2px 0;font-style:italic}.history-archive.clean .archive-card:nth-child(1) img,.history-archive.clean .archive-card:nth-child(2) img{object-fit:contain;background:#fff}.history-archive.clean .archive-card:nth-child(6) img{object-position:center 35%}
+.awards-page{max-width:1440px;margin:auto;padding:90px 5vw 120px}.awards-page>h1,.contact-page h1{font-size:clamp(4rem,8vw,8rem);line-height:.88;margin:14px 0 30px}.awards-lead{max-width:760px;font-size:1.3rem;line-height:1.55}.award-feature{margin:70px 0 90px;display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center;background:#fff}.award-feature img{width:100%;height:620px;object-fit:cover}.award-feature>div{padding:45px}.award-feature h2{font-size:clamp(3rem,5vw,5.5rem);margin:10px 0 22px}.award-medal{font-size:1.45rem;font-weight:700}.timeline-title{font-size:clamp(2.4rem,4vw,4.5rem);margin:0 0 40px}.award-timeline{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #aaa}.award-year{padding:28px 28px 34px 0;border-bottom:1px solid #bbb}.award-year h3{font-size:2.7rem;margin-bottom:16px}.award-year ul{margin:0;padding-left:18px;line-height:1.6}.milk-award{margin-top:60px;padding:35px;border:1px solid #bbb;max-width:480px}.milk-award h3{font-size:3rem;margin:12px 0 5px}
+.contact-page{max-width:1440px;margin:auto;padding:90px 5vw 120px;display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:start}.location{font-size:1.2rem;line-height:1.6}.contact-links{margin-top:40px;border-top:1px solid #aaa}.contact-links a{display:block;color:#111;text-decoration:none;padding:18px 0;border-bottom:1px solid #aaa;font-size:1.08rem}.contact-links span{display:block;text-transform:uppercase;letter-spacing:.14em;font-size:.68rem;font-weight:800;margin-bottom:5px}.map-wrap iframe{width:100%;height:620px;border:0}.map-link{display:inline-block;margin-top:14px;color:#111;text-decoration:none;font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:.8rem}
+@media(max-width:900px){.history-archive.clean{grid-template-columns:repeat(2,1fr)}.award-feature,.contact-page{grid-template-columns:1fr}.award-feature img{height:auto}.award-timeline{grid-template-columns:repeat(2,1fr)}.map-wrap iframe{height:480px}}
+@media(max-width:520px){.history-archive.clean{grid-template-columns:1fr}.history-archive.clean .archive-card img{height:auto;object-fit:contain}.award-timeline{grid-template-columns:1fr}.awards-page,.contact-page{padding:65px 22px 85px}.award-feature{margin:45px 0 65px}.award-feature>div{padding:25px}.map-wrap iframe{height:390px}}
+
+/* V5 - sistema tipografico del manual de marca */
+body{font-family:'Acumin Extra Condensed','Acumin Concept',Arial Narrow,Arial,sans-serif;font-stretch:extra-condensed;font-weight:400}
+h1,h2,h3,.cheese-name,.modal-box h2,.timeline-title{font-family:'Rostan Sans','Acumin Extra Condensed','Acumin Concept',Arial Narrow,Arial,sans-serif;font-weight:400;font-stretch:normal}
+.history-copy h2{text-transform:uppercase;letter-spacing:-.025em}
+.eyebrow,.topbar a,.btn,.card button,.map-link{font-family:'Acumin Extra Condensed','Acumin Concept',Arial Narrow,Arial,sans-serif;font-stretch:extra-condensed;font-weight:700}
+.lead,.history-copy>p:not(.eyebrow),.catalog-intro,.card p,.modal-box p,.awards-lead,.award-year li,.contact-page,.location{font-weight:400;font-stretch:extra-condensed}
+.history-family figcaption,.archive-card figcaption{font-weight:300;font-stretch:extra-condensed}
+.award-year h3,.award-medal{font-family:'Acumin Extra Condensed','Acumin Concept',Arial Narrow,Arial,sans-serif;font-stretch:extra-condensed;font-weight:800}
+
+/* V5 - colores oficiales del manual de marca */
+:root{--p-black:#000000;--p-2975:#9FD9E7;--p-299:#0080AF;--p-527:#633F7F;--p-warm-red:#E6332A;--p-151:#FF8000;--p-487:#F5A98F;--p-729:#A3764C;--p-5777:#94A466;--p-604:#EADD41}
+.card{position:relative;overflow:hidden;border-top:8px solid var(--cheese-color,#000)}
+.card .cheese-name{color:var(--cheese-color,#111)}
+.card button{color:var(--cheese-color,#111)}
+.card button:hover{text-decoration:underline}
+.card[data-cheese="cacciocavallo"]{--cheese-color:var(--p-5777)}
+.card[data-cheese="camembert"]{--cheese-color:var(--p-299)}
+.card[data-cheese="colonia"]{--cheese-color:var(--p-2975)}
+.card[data-cheese="cremoso"]{--cheese-color:var(--p-151)}
+.card[data-cheese="cuartirolo"]{--cheese-color:var(--p-warm-red)}
+.card[data-cheese="dambo"]{--cheese-color:var(--p-527)}
+.card[data-cheese="gruyere"]{--cheese-color:var(--p-604)}
+.card[data-cheese="maasdam"]{--cheese-color:var(--p-487)}
+.card[data-cheese="magro"]{--cheese-color:var(--p-2975)}
+.card[data-cheese="muzarella"]{--cheese-color:var(--p-487)}
+.card[data-cheese="parmesano"]{--cheese-color:var(--p-warm-red)}
+.card[data-cheese="parrillero"]{--cheese-color:var(--p-527)}
+.card[data-cheese="pepato"]{--cheese-color:var(--p-5777)}
+.card[data-cheese="sardo-oregano"]{--cheese-color:var(--p-5777)}
+.card[data-cheese="sbrinz"]{--cheese-color:var(--p-729)}
+.card[data-cheese="torta-brie"]{--cheese-color:var(--p-299)}
+.modal-box{border-top:10px solid var(--modal-color,#000)}
+.modal-box #modal-title{color:var(--modal-color,#111)}
+
+/* Historia: archivo limpio, ocho fotos pares */
+.history-archive.clean{grid-template-columns:repeat(4,minmax(0,1fr));gap:34px 22px}
+.history-archive.clean .archive-card img{height:260px;border:0;padding:0;background:transparent}
+.history-archive.clean .archive-card figcaption{padding:10px 0 0;color:#333;font-size:.96rem;line-height:1.2}
+
+/* dos presentaciones del Dambo dentro de una sola variedad */
+.dambo-pair{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.dambo-pair img{width:100%;height:100%;aspect-ratio:4/3;object-fit:cover}
+
+@media(max-width:900px){.history-archive.clean{grid-template-columns:repeat(2,minmax(0,1fr))}.history-archive.clean .archive-card img{height:240px}}
+@media(max-width:560px){.history-archive.clean{grid-template-columns:1fr}.history-archive.clean .archive-card img{height:auto;aspect-ratio:auto}.dambo-pair{grid-template-columns:1fr 1fr}}
+
+/* V5.1 — nombres de variedades: Rostan Sans en mayúsculas */
+.grid .card h3.cheese-name,
+.modal-box #modal-title {
+  font-family: 'Rostan Sans', 'Acumin Extra Condensed', 'Acumin Concept', Arial Narrow, Arial, sans-serif !important;
+  font-weight: 400 !important;
+  font-stretch: normal !important;
+  text-transform: uppercase !important;
+  letter-spacing: .045em !important;
+}
+
+/* V5.2 — títulos de variedades trazados desde Rostán Sans (sin depender de la fuente instalada) */
+.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.cheese-name{display:block}
+.cheese-title-mark{display:block;width:min(100%,560px);height:58px;background:var(--cheese-color,#111);-webkit-mask-image:var(--title-svg);mask-image:var(--title-svg);-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-position:left center;mask-position:left center;-webkit-mask-size:contain;mask-size:contain}
+.modal-title-mark{height:76px;background:var(--modal-color,#111);margin:8px 0 22px}
+.grid .card h3.cheese-name{font-size:0;margin:0 0 12px}
+.modal-box #modal-title{font-size:0;margin:10px 0 20px}
+
+/* Historia — título contenido dentro de su columna */
+.history-copy h1{font-size:clamp(3rem,4.7vw,5.35rem);line-height:.91;letter-spacing:.015em;overflow-wrap:normal;word-break:normal}
+
+/* Fotos históricas — el margen de los escaneos se integra con el crema de la web */
+.history-editorial,.history-archive.clean .archive-card img,.history-family img{background:var(--paper)}
+.history-family img{border-color:rgba(182,117,43,.25)}
+
+@media(max-width:760px){.cheese-title-mark{height:54px}.modal-title-mark{height:64px}.history-copy h1{font-size:clamp(2.8rem,13vw,4.4rem)}}
+
+
+/* V5.3 — nombres visibles: SVG trazado directamente con Rostán Sans */
+.cheese-name{display:block;margin:0 0 12px!important;font-size:0!important}
+.cheese-title-mark,.modal-title-mark{display:none!important}
+.cheese-title-img{display:block;width:auto;max-width:100%;height:58px;object-fit:contain;object-position:left center}
+.modal-title-img{height:76px;margin:8px 0 22px}
+@media(max-width:760px){.cheese-title-img{height:54px}.modal-title-img{height:64px}}
+
+/* V5.4 — correcciones finales de esta ronda */
+.contact-page h1{font-size:clamp(3rem,5.3vw,5.7rem);line-height:.9}
+.cheese-title-img{height:58px;max-width:100%;object-fit:contain;object-position:left center}
+@media(max-width:760px){.contact-page h1{font-size:clamp(2.7rem,11vw,4.1rem)}.cheese-title-img{height:52px}}
+
+/* V6 — dirección híbrida editorial premium + sistema cromático de variedades */
+.v6{background:#f5f0e7}.hero-v6{background-image:url('images/editorial/maduracion-estanterias.jpg');min-height:92svh}.hero-v6 .hero-copy{max-width:1080px}.hero-v6 h1{font-size:clamp(4rem,8.2vw,8rem);line-height:.9}.intro-v6{padding-top:100px;padding-bottom:100px}.intro-v6 h2{font-size:clamp(3rem,5vw,5.4rem)}
+.product-strip{padding:90px 5vw 110px;background:#fbf8f1}.strip-head{max-width:1240px;margin:0 auto 38px;display:flex;align-items:end;justify-content:space-between;gap:30px}.strip-head h2{font-size:clamp(3rem,5vw,5rem)}.strip-grid{max-width:1240px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:4px}.strip-card{display:block;text-decoration:none;color:#fff;background:#000;overflow:hidden}.strip-card img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}.strip-card span{display:block;padding:18px 16px 15px;font-family:'Rostan Sans','Arial Narrow',sans-serif;font-size:2.1rem;line-height:1;text-transform:uppercase}.c-colonia span{background:#0080AF}.c-dambo span{background:#633F7F}.c-cremoso span{background:#FF8000}.c-gruyere span{background:#D5BE00;color:#111}
+.craft-v6{display:grid;grid-template-columns:1.15fr .85fr;background:#050505;color:#fff}.craft-photo img{width:100%;height:720px;object-fit:cover;display:block}.craft-copy{padding:8vw 6vw;display:flex;flex-direction:column;justify-content:center}.craft-copy h2{font-size:clamp(3rem,5vw,5.4rem);margin:8px 0 28px}.craft-copy p:not(.eyebrow){font-size:1.15rem;line-height:1.6;max-width:520px;margin-bottom:30px}
+.origin-v6{height:70vh;min-height:560px;position:relative;color:#fff;overflow:hidden}.origin-v6 img{width:100%;height:100%;object-fit:cover;display:block;filter:brightness(.62)}.origin-v6>div{position:absolute;left:5vw;bottom:7vh}.origin-v6 h2{font-size:clamp(3.5rem,6vw,6.4rem);margin:10px 0 28px}
+.table-v6{display:grid;grid-template-columns:1.25fr .75fr;background:#fbf8f1}.table-v6 img{width:100%;height:650px;object-fit:cover;display:block}.table-v6>div{padding:7vw 5vw;display:flex;flex-direction:column;justify-content:center}.table-v6 h2{font-size:clamp(3rem,5vw,5rem);margin:10px 0 22px}.table-v6 p:not(.eyebrow){font-size:1.2rem;line-height:1.55}.recognition-tease{max-width:1240px;margin:auto;padding:100px 5vw;display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:end}.recognition-tease h2{font-size:clamp(3rem,5vw,5rem)}.recognition-tease>div:last-child{font-size:1.2rem;line-height:1.5;padding-bottom:10px}
+.award-2022{grid-column:span 2;display:grid;grid-template-columns:.8fr 1.2fr;gap:28px;padding-right:0!important}.award-2022 img{width:100%;height:100%;min-height:330px;object-fit:cover}.award-photo-year{border-top:7px solid #EADD41}
+.cheese-title-img{height:54px!important;width:auto!important;max-width:100%!important;object-fit:contain!important;object-position:left center!important}
+.history-archive.clean .archive-card img{background:var(--paper)!important}
+@media(max-width:900px){.strip-grid{grid-template-columns:repeat(2,1fr)}.craft-v6,.table-v6{grid-template-columns:1fr}.craft-photo img,.table-v6 img{height:55vh}.award-2022{grid-column:span 2;grid-template-columns:1fr}.award-2022 img{height:auto}.recognition-tease{grid-template-columns:1fr;gap:25px}}
+@media(max-width:560px){.hero-v6 h1{font-size:3.5rem}.strip-head{align-items:start;flex-direction:column}.strip-grid{grid-template-columns:1fr 1fr}.strip-card span{font-size:1.45rem;padding:13px 10px}.craft-photo img,.table-v6 img{height:48vh}.origin-v6{min-height:500px}.award-2022{grid-column:span 1}.recognition-tease{padding:75px 22px}.cheese-title-img{height:46px!important}}
+
+
+/* V6.1 — correcciones de revisión */
+/* Inicio: logo protagonista y ubicación separada del logo/texto */
+.hero-v6 .hero-copy{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;padding-top:155px}
+.hero-logo-large{width:clamp(190px,20vw,330px);height:auto;object-fit:contain;margin:0 0 34px;filter:none}
+.hero-v6 h1{margin:0 0 20px}
+.hero-location{font-family:'Acumin Extra Condensed','Acumin Concept',Arial Narrow,Arial,sans-serif;font-weight:700;letter-spacing:.18em;text-transform:uppercase;font-size:.92rem;margin:0 0 14px}
+.hero-since{margin:0 0 28px;font-size:1.08rem}
+
+/* Quesos: producto entero, centrado, sin recortes; mismo tamaño visual de nombres */
+.grid .card>img{width:100%;aspect-ratio:4/3;object-fit:contain!important;object-position:center center!important;background:#f7f2e9;padding:18px;box-sizing:border-box}
+.grid .card[data-cheese="dambo"]>img{object-fit:contain!important;object-position:center!important}
+.grid .card h3.cheese-name{min-height:76px;display:flex;align-items:center;margin-bottom:12px!important}
+.grid .card .cheese-title-img{height:68px!important;width:auto!important;max-width:none!important;object-fit:contain!important;object-position:left center!important}
+.modal-title-img{height:76px!important}
+
+/* Historia: escaneos nuevos sin marcos blancos artificiales */
+.history-archive.clean .archive-card img{background:var(--paper)!important;border:0!important;padding:0!important;object-fit:contain!important;object-position:center!important}
+
+@media(max-width:760px){
+ .hero-v6 .hero-copy{padding-top:120px}
+ .hero-logo-large{width:190px;margin-bottom:24px}
+ .hero-location{font-size:.78rem;letter-spacing:.13em}
+ .grid .card h3.cheese-name{min-height:64px}
+ .grid .card .cheese-title-img{height:58px!important}
+ .grid .card>img{padding:12px}
+}
+
+/* V6.2 — revisión visual en la web real */
+/* Todos los nombres de variedades usan exactamente la misma altura visual,
+   un poco más grande, y quedan centrados dentro de cada ficha. */
+.grid .card h3.cheese-name{
+  min-height:92px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:0 0 14px!important;
+  overflow:visible;
+}
+.grid .card .cheese-title-img{
+  display:block!important;
+  height:78px!important;
+  width:auto!important;
+  max-width:100%!important;
+  margin:0 auto!important;
+  object-fit:contain!important;
+  object-position:center center!important;
+  flex:0 0 auto;
+}
+.modal-box #modal-title{
+  display:flex;
+  justify-content:center;
+}
+.modal-title-img{
+  height:84px!important;
+  width:auto!important;
+  max-width:100%!important;
+  margin:8px auto 22px!important;
+  object-position:center center!important;
+}
+@media(max-width:760px){
+  .grid .card h3.cheese-name{min-height:76px}
+  .grid .card .cheese-title-img{height:64px!important}
+  .modal-title-img{height:70px!important}
+}
+
+
+/* V6.3 — fotos de producto a sangre, centrando el queso dentro del encuadre */
+/* La foto vuelve a ocupar todo el ancho de la tarjeta. El encuadre se ajusta
+   individualmente para que el producto quede visualmente centrado y no se corte. */
+.grid .card>img{
+  width:100%;
+  aspect-ratio:4/3;
+  display:block;
+  object-fit:cover!important;
+  padding:0!important;
+  background:transparent!important;
+  box-sizing:border-box;
+}
+.grid .card[data-cheese="cacciocavallo"]>img{object-position:50% 64%!important}
+.grid .card[data-cheese="camembert"]>img{object-position:50% 58%!important}
+.grid .card[data-cheese="colonia"]>img{object-position:50% 62%!important}
+.grid .card[data-cheese="cremoso"]>img{object-position:50% 62%!important}
+.grid .card[data-cheese="cuartirolo"]>img{object-position:50% 64%!important}
+.grid .card[data-cheese="dambo"]>img{object-position:50% 62%!important}
+.grid .card[data-cheese="gruyere"]>img{object-position:50% 60%!important}
+.grid .card[data-cheese="maasdam"]>img{object-position:50% 72%!important}
+.grid .card[data-cheese="magro"]>img{object-position:50% 58%!important}
+.grid .card[data-cheese="muzarella"]>img{object-position:50% 60%!important}
+.grid .card[data-cheese="parmesano"]>img{object-position:50% 56%!important}
+.grid .card[data-cheese="parrillero"]>img{object-position:50% 56%!important}
+.grid .card[data-cheese="pepato"]>img{object-position:50% 64%!important}
+.grid .card[data-cheese="sbrinz"]>img{object-position:50% 64%!important}
+.grid .card[data-cheese="sardo-oregano"]>img{object-position:50% 50%!important}
+.grid .card[data-cheese="torta-brie"]>img{object-position:50% 58%!important}
+
+@media(max-width:760px){
+  .grid .card>img{padding:0!important}
+}
+
+/* V6.4 — Inicio: una sola imagen para presentar las variedades */
+.varieties-feature-photo{display:block;width:100%;overflow:hidden;text-decoration:none;background:#111}
+.varieties-feature-photo img{display:block;width:100%;height:clamp(360px,52vw,720px);object-fit:cover;object-position:center 53%}
+@media(max-width:700px){.varieties-feature-photo img{height:62vw;min-height:270px;object-position:center center}}
+
+/* V6.5 — ajustes de revisión */
+/* Nombres: misma altura real para TODAS las variedades. Se permite que los nombres
+   largos ocupen el ancho del padding sin reducir automáticamente la marca. */
+.grid .card h3.cheese-name{
+  min-height:84px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:visible;
+}
+.grid .card .cheese-title-img{
+  height:70px!important;
+  width:auto!important;
+  max-width:none!important;
+  margin:0 auto!important;
+  object-fit:contain!important;
+  object-position:center center!important;
+}
+
+/* Encuadres individualizados: la foto llena el espacio y el queso queda centrado. */
+.grid .card[data-cheese="cremoso"]>img{object-position:50% 45%!important}
+.grid .card[data-cheese="dambo"]>img{object-position:50% 55%!important}
+
+/* Reconocimientos: galería editorial 2022 + archivo de primeras Catas. */
+.award-2022{grid-template-columns:.72fr 1.28fr;align-items:stretch}
+.award-2022-copy{padding-right:8px}
+.award-gallery{display:grid;gap:8px;min-width:0}
+.award-gallery-2022{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,220px)}
+.award-gallery-2022 img{width:100%;height:100%!important;min-height:0!important;object-fit:cover;display:block}
+.award-2006{grid-column:span 2;display:grid;grid-template-columns:.62fr 1.38fr;gap:28px;padding-right:0!important;align-items:start}
+.award-history-photo{margin:0}
+.award-history-photo img{width:100%;height:330px;object-fit:cover;display:block}
+.award-history-photo figcaption,.award-history-feature figcaption{font-size:.82rem;line-height:1.35;color:#555;margin-top:8px;font-style:italic}
+.award-history-feature{grid-column:span 1;padding:28px 28px 34px 0;border-bottom:1px solid #bbb}
+.award-history-feature figure{margin:0}
+.award-history-feature img{width:100%;height:330px;object-fit:cover;display:block}
+
+@media(max-width:900px){
+  .award-gallery-2022{grid-template-rows:repeat(2,190px)}
+  .award-2006{grid-column:span 2;grid-template-columns:1fr}
+  .award-history-feature{grid-column:span 2}
+}
+@media(max-width:760px){
+  .grid .card .cheese-title-img{height:64px!important;max-width:none!important}
+  .grid .card h3.cheese-name{min-height:78px}
+}
+@media(max-width:560px){
+  .award-gallery-2022{grid-template-columns:1fr;grid-template-rows:none}
+  .award-gallery-2022 img{height:auto!important;aspect-ratio:4/3}
+  .award-2006,.award-history-feature{grid-column:span 1}
+  .award-history-photo img,.award-history-feature img{height:auto;aspect-ratio:4/3}
+}
+
+/* V6.6 — corrección definitiva de escala de nombres de variedades.
+   Todos usan EXACTAMENTE la misma altura; ningún nombre se autoescala por longitud. */
+.grid .card .cheese-title-img{
+  height:64px!important;
+  width:auto!important;
+  max-width:none!important;
+  min-width:0!important;
+  object-fit:none!important;
+  margin:0 auto!important;
+}
+.grid .card h3.cheese-name{
+  min-height:82px!important;
+  overflow:visible!important;
+}
+/* En ventanas angostas, el tamaño común se reduce para que incluso SARDO CON ORÉGANO
+   entre completo. La reducción es idéntica para TODOS los nombres. */
+@media(max-width:760px){
+  .grid .card .cheese-title-img{height:40px!important;width:auto!important;max-width:none!important}
+  .grid .card h3.cheese-name{min-height:58px!important}
+}
+
+/* V6.7 — títulos de variedades: mismo tamaño REAL y sin recortes.
+   Cada PNG usa el mismo lienzo y la misma altura de letra; por eso todos escalan igual. */
+.grid .card h3.cheese-name{
+  min-height:82px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  overflow:visible!important;
+}
+.grid .card .cheese-title-img{
+  display:block!important;
+  width:min(100%,440px)!important;
+  height:auto!important;
+  max-width:440px!important;
+  object-fit:contain!important;
+  object-position:center!important;
+  margin:0 auto!important;
+}
+.modal-title-img{
+  width:min(100%,520px)!important;
+  height:auto!important;
+  max-width:520px!important;
+  object-fit:contain!important;
+}
+@media(max-width:760px){
+  .grid .card h3.cheese-name{min-height:72px!important}
+  .grid .card .cheese-title-img{width:min(100%,440px)!important;height:auto!important;max-width:440px!important}
+}
+
+/* V6.8 — refinamientos de Inicio y catálogo */
+/* Hero: una sola presencia de marca. */
+.hero-v6 .hero-logo-large{display:none!important}
+.hero-v6 .hero-copy{padding-top:150px!important}
+
+/* Inicio / variedades: nueva fotografía, sin lista de quesos. */
+.varieties-feature-photo img{
+  object-position:center 52%!important;
+}
+
+/* Tarjetas más compactas: mantenemos aire, pero sin un gran bloque vacío. */
+.grid .card>div{
+  padding:20px 28px 22px!important;
+}
+.grid .card h3.cheese-name{
+  min-height:70px!important;
+  margin:0 0 6px!important;
+}
+.grid .card .cheese-title-img{
+  width:min(100%,440px)!important;
+  max-width:440px!important;
+  height:auto!important;
+}
+.grid .card p{
+  margin:4px 0 6px!important;
+  min-height:0!important;
+}
+.grid .card button{
+  padding:8px 0 2px!important;
+}
+
+/* Fotos: a sangre, pero con el producto dentro del encuadre. */
+.grid .card{isolation:isolate}
+.grid .card>img{
+  transform-origin:center center;
+}
+/* Dambo: la horma con cáscara tiene ahora una presencia visual comparable al Cuartirolo. */
+.grid .card[data-cheese="dambo"]>img{
+  object-position:50% 52%!important;
+  transform:scale(1.34);
+}
+/* Afinado de encuadres de las variedades que podían quedar al borde. */
+.grid .card[data-cheese="maasdam"]>img{object-position:50% 66%!important}
+.grid .card[data-cheese="cuartirolo"]>img{object-position:50% 60%!important}
+.grid .card[data-cheese="cremoso"]>img{object-position:50% 50%!important}
+.grid .card[data-cheese="cacciocavallo"]>img{object-position:50% 60%!important}
+.grid .card[data-cheese="pepato"]>img{object-position:50% 58%!important}
+.grid .card[data-cheese="sbrinz"]>img{object-position:50% 58%!important}
+
+@media(max-width:760px){
+  .hero-v6 .hero-copy{padding-top:110px!important}
+  .grid .card>div{padding:18px 20px 20px!important}
+  .grid .card h3.cheese-name{min-height:64px!important}
+}
+
+/* V6.9 — corrección del espacio blanco alrededor de los nombres de quesos.
+   La regla general .card img aplicaba aspect-ratio:4/3 también a los PNG de títulos,
+   generando un lienzo visual enorme. Los títulos recuperan su proporción natural. */
+.grid .card .cheese-title-img{
+  aspect-ratio:auto!important;
+  width:min(100%,440px)!important;
+  height:auto!important;
+  max-width:440px!important;
+  object-fit:contain!important;
+  margin:0 auto!important;
+}
+.grid .card h3.cheese-name{
+  min-height:0!important;
+  height:auto!important;
+  margin:0 0 8px!important;
+  padding:0!important;
+}
+.grid .card>div{
+  padding:18px 28px 20px!important;
+}
+.grid .card p{
+  margin:6px 0 4px!important;
+}
+.grid .card button{
+  padding:7px 0 0!important;
+}
+@media(max-width:760px){
+  .grid .card h3.cheese-name{min-height:0!important}
+  .grid .card>div{padding:16px 20px 18px!important}
+}
+
+/* V6.10 — encuadres consistentes de Cuartirolo y Dambo */
+.grid .card[data-cheese="cuartirolo"]>img,
+.grid .card[data-cheese="dambo"]>img{
+  width:100%!important;
+  aspect-ratio:4/3!important;
+  object-fit:cover!important;
+  object-position:center center!important;
+  padding:0!important;
+  background:#000!important;
+}
+
+/* V6.11 — todas las fotos del catálogo tienen exactamente la misma dimensión.
+   El encuadre individual puede variar, pero el rectángulo visible siempre es 4:3. */
+.grid .card{
+  overflow:hidden!important;
+}
+.grid .card>img{
+  display:block!important;
+  width:100%!important;
+  height:auto!important;
+  aspect-ratio:4/3!important;
+  object-fit:cover!important;
+  padding:0!important;
+  margin:0!important;
+  transform:none!important;
+  background:#000!important;
+}
+/* Cuartirolo y Dambo ya usan recortes 4:3 preparados para mostrar la horma completa. */
+.grid .card[data-cheese="cuartirolo"]>img,
+.grid .card[data-cheese="dambo"]>img{
+  width:100%!important;
+  height:auto!important;
+  aspect-ratio:4/3!important;
+  object-fit:cover!important;
+  object-position:center center!important;
+  transform:none!important;
+}

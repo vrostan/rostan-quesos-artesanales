@@ -1,0 +1,5 @@
+Rostán Web V5.4
+- Nombres de quesos visibles, trazados con Rostán Sans en mayúsculas.
+- Colores oficiales del manual.
+- Título de Contacto más pequeño.
+- Corrección de títulos en fichas modales.

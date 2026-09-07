@@ -1,0 +1,9 @@
+ROSTÁN WEB — V6.2
+
+Cambios de esta revisión:
+- Nuestra Historia: se reemplazó la foto de “Néstor ordeñando” por la nueva foto enviada.
+- Nuestros Quesos: todos los nombres de variedades tienen exactamente la misma altura visual.
+- Los nombres son más grandes y quedan centrados dentro de cada ficha.
+- También se unificó y centró el título al abrir cada queso.
+
+Abrir index.html para iniciar la navegación.

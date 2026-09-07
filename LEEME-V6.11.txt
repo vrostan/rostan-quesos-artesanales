@@ -1,0 +1,6 @@
+ROSTÁN WEB V6.11
+
+Cambio principal:
+- Todas las fotografías de la grilla de quesos usan exactamente el mismo rectángulo 4:3.
+- Se eliminó el escalado especial de Dambo que hacía que su tarjeta tuviera un aspecto distinto.
+- Cuartirolo y Dambo usan sus recortes preparados en 4:3 para mantener el queso completo dentro del encuadre.

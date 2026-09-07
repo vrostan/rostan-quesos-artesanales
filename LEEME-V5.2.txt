@@ -1,0 +1,10 @@
+ROSTÁN WEB V5.2
+
+Cambios principales:
+- Nombres de todas las variedades en Rostán Sans real, en mayúsculas. Se renderizan como trazados SVG para que mantengan la forma exacta sin depender de que la tipografía esté instalada en el navegador.
+- Nueva foto en “Cada queso, su propio carácter”.
+- Nueva foto principal de COLONIA.
+- Título de Nuestra historia ajustado para no invadir la foto familiar.
+- Fondos blancos visibles de las fotos históricas integrados al color crema de la web.
+- Se mantienen los colores oficiales por variedad del manual de marca.
+- Premios en orden del más reciente al más antiguo.

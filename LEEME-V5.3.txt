@@ -1,0 +1,3 @@
+Rostán Web V5.3
+
+Corrección principal: los nombres de cada queso vuelven a mostrarse y están trazados directamente desde Rostán Sans en mayúsculas, por lo que no dependen de que la fuente esté instalada en el navegador.

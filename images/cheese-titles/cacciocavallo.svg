@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="576pt" height="82.8pt" viewBox="0 0 576 82.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-06T22:37:11.170583</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="axes_1">
+   <g id="text_1">
+    <!-- CACCIOCAVALLO -->
+    <g style="fill: #94a466" transform="translate(0 55.9) scale(0.58 -0.58)">
+     <defs>
+      <path id="RostanSans-Regular-43" d="M 640 4480 
+Q 838 4480 979 4339 
+Q 1120 4198 1120 4000 
+L 1120 3200 
+L 806 3200 
+L 806 4006 
+Q 806 4070 761 4115 
+Q 717 4160 653 4160 
+L 474 4160 
+Q 410 4160 365 4115 
+Q 320 4070 320 4006 
+L 320 474 
+Q 320 410 365 365 
+Q 410 320 474 320 
+L 653 320 
+Q 717 320 761 365 
+Q 806 410 806 474 
+L 806 1280 
+L 1120 1280 
+L 1120 480 
+Q 1120 282 979 141 
+Q 838 0 640 0 
+L 480 0 
+Q 282 0 141 141 
+Q 0 282 0 480 
+L 0 4000 
+Q 0 4198 141 4339 
+Q 282 4480 480 4480 
+L 640 4480 
+z
+" transform="scale(0.015625)"/>
+      <path id="RostanSans-Regular-41" d="M 800 4006 
+Q 800 4070 755 4115 
+Q 710 4160 646 4160 
+L 474 4160 
+Q 410 4160 365 4115 
+Q 320 4070 320 4006 
+L 320 960 
+L 800 960 
+L 800 4006 
+z
+M 0 4000 
+Q 0 4198 141 4339 
+Q 282 4480 480 4480 
+L 640 4480 
+Q 838 4480 979 4339 
+Q 1120 4198 1120 4000 
+L 1120 0 
+L 800 0 
+L 800 640 
+L 320 640 
+L 320 0 
+L 0 0 
+L 0 4000 
+z
+" transform="scale(0.015625)"/>
+      <path id="RostanSans-Regular-49" d="M 1120 4160 
+L 717 4160 
+L 717 320 
+L 1120 320 
+L 1120 0 
+L 0 0 
+L 0 320 
+L 397 320 
+L 397 4160 
+L 0 4160 
+L 0 4480 
+L 1120 4480 
+L 1120 4160 
+z
+" transform="scale(0.015625)"/>
+      <path id="RostanSans-Regular-4f" d="M 646 320 
+Q 710 320 755 365 
+Q 800 410 800 474 
+L 800 4006 
+Q 800 4070 755 4115 
+Q 710 4160 646 4160 
+L 474 4160 
+Q 410 4160 365 4115 
+Q 320 4070 320 4006 
+L 320 474 
+Q 320 410 365 365 
+Q 410 320 474 320 
+L 646 320 
+z
+M 0 4000 
+Q 0 4198 141 4339 
+Q 282 4480 480 4480 
+L 640 4480 
+Q 838 4480 979 4339 
+Q 1120 4198 1120 4000 
+L 1120 480 
+Q 1120 282 979 141 
+Q 838 0 640 0 
+L 480 0 
+Q 282 0 141 141 
+Q 0 282 0 480 
+L 0 4000 
+z
+" transform="scale(0.015625)"/>
+      <path id="RostanSans-Regular-56" d="M 864 0 
+L 256 0 
+L 0 4480 
+L 320 4480 
+L 557 326 
+L 800 4480 
+L 1120 4480 
+L 864 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="RostanSans-Regular-4c" d="M 1120 320 
+L 1120 0 
+L 0 0 
+L 0 4480 
+L 320 4480 
+L 320 320 
+L 1120 320 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#RostanSans-Regular-43"/>
+     <use xlink:href="#RostanSans-Regular-41" transform="translate(21.999985 0)"/>
+     <use xlink:href="#RostanSans-Regular-43" transform="translate(43.999969 0)"/>
+     <use xlink:href="#RostanSans-Regular-43" transform="translate(65.999954 0)"/>
+     <use xlink:href="#RostanSans-Regular-49" transform="translate(87.999939 0)"/>
+     <use xlink:href="#RostanSans-Regular-4f" transform="translate(109.999924 0)"/>
+     <use xlink:href="#RostanSans-Regular-43" transform="translate(131.999908 0)"/>
+     <use xlink:href="#RostanSans-Regular-41" transform="translate(153.999893 0)"/>
+     <use xlink:href="#RostanSans-Regular-56" transform="translate(175.999878 0)"/>
+     <use xlink:href="#RostanSans-Regular-41" transform="translate(195.499863 0)"/>
+     <use xlink:href="#RostanSans-Regular-4c" transform="translate(217.499847 0)"/>
+     <use xlink:href="#RostanSans-Regular-4c" transform="translate(239.499832 0)"/>
+     <use xlink:href="#RostanSans-Regular-4f" transform="translate(261.499817 0)"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

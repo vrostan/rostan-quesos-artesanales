@@ -1,0 +1,8 @@
+ROSTÁN WEB V6.3
+
+Cambios de esta revisión:
+- Las fotos de cada queso vuelven a ocupar todo el espacio de la tarjeta.
+- El encuadre se ajustó por variedad para centrar visualmente el queso y evitar cortes innecesarios.
+- Se mantiene Dambo con la foto cuadrada/envasada en la grilla.
+- Se mantiene el tamaño uniforme y mayor de los nombres de variedades.
+- En Nuestra Historia, la foto de “Néstor ordeñando” se reemplazó por la nueva imagen enviada.

@@ -1,0 +1,11 @@
+ROSTÁN WEB — V6.1
+
+Cambios de esta versión:
+- Inicio: logo Rostán más grande y protagonista.
+- Recuperado el mensaje “Quesos artesanales con historia”.
+- “Cañada Nieto · Soriano · Uruguay” separado para evitar superposición.
+- Nuestra historia: sustituidas las fotos de Elvio/Yolanda y Néstor con el tachito por los nuevos archivos sin bordes blancos.
+- Nuestros quesos: fotos centradas y contenidas para que no se corten (especialmente Maasdam y Cuartirolo).
+- Nombres de variedades más grandes y con la misma altura visual.
+- Dambo: en la grilla se muestra solo la foto del Dambo cuadrado/envasado; las demás presentaciones pueden mantenerse al abrir la ficha.
+- Se mantienen los reconocimientos 2024 y 2022 agregados en V6.

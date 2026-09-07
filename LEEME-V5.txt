@@ -1,0 +1,16 @@
+ROSTÁN WEB V5
+
+Abrir index.html para ver el sitio.
+
+Esta versión usa los nombres locales “Rostan Sans” y “Acumin Extra Condensed / Acumin Concept” en CSS. Los archivos de tipografía no están incluidos en este paquete. Para ver las tipografías exactas de marca, deben estar instaladas en el equipo o cargadas en el hosting por el propietario de la marca.
+
+Cambios V5:
+- tipografía jerarquizada según el manual de marca;
+- títulos en Rostan Sans;
+- colores oficiales Pantone/HEX del manual usados como acentos por variedad;
+- nuevas fotos de producto;
+- Dambo sigue siendo una sola variedad y muestra sus dos presentaciones;
+- foto correcta de Néstor ordeñando;
+- historia con 8 fotos, sin fotos del tambo/quesería y sin títulos marrones;
+- reconocimientos ordenados del más reciente al más antiguo;
+- mapa/contacto conservados.

@@ -1,0 +1,8 @@
+ROSTÁN WEB — V6.5
+
+Cambios de esta versión:
+- Reconocimientos: se incorporan las cuatro fotos de La Cata 2022.
+- Reconocimientos: se agregan dos fotos históricas de las primeras Catas, incluyendo la imagen identificada como 7ª Cata del Queso Artesanal 2006.
+- Quesos: todos los nombres de las variedades usan la misma altura visual; los nombres largos ya no se reducen automáticamente.
+- Cremoso: se corrige el encuadre para centrar el queso dentro de la foto sin dejarlo pegado arriba.
+- Dambo: la tarjeta principal usa el Dambo cuadrado con cáscara; el envasado al vacío queda como presentación secundaria.
