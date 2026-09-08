@@ -1,0 +1,11 @@
+ROSTÁN WEB V6.20
+
+Correcciones mobile:
+- Header negro en todas las páginas.
+- Logo ROSTÁN e isologo blancos.
+- Logo ROSTÁN centrado geométricamente.
+- Isologo a la izquierda y hamburguesa a la derecha con márgenes simétricos.
+- Menú móvil con texto blanco visible y separadores sutiles.
+- Cache-busting v6.20 para CSS, JS y marca blanca.
+
+Desktop se mantiene sin cambios.

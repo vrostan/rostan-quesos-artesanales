@@ -956,3 +956,144 @@ footer .footer-monogram{
   .topbar .menu{right:10px!important}
   .topbar nav{top:94px!important}
 }
+
+
+/* V6.20 — corrección definitiva del header y menú móvil.
+   En TODAS las páginas: fondo negro, marca blanca, logo ROSTÁN centrado,
+   isologo a la izquierda y hamburguesa a la derecha con márgenes simétricos. */
+@media (max-width:760px){
+  header.topbar,
+  header.topbar.inner{
+    position:relative!important;
+    z-index:1000!important;
+    width:100%!important;
+    min-height:102px!important;
+    padding:0!important;
+    margin:0!important;
+    background:#000!important;
+    color:#fff!important;
+    border:0!important;
+  }
+
+  header.topbar .brand{
+    position:static!important;
+    display:block!important;
+    width:100%!important;
+    height:102px!important;
+    max-width:none!important;
+    margin:0!important;
+    padding:0!important;
+    transform:none!important;
+  }
+
+  header.topbar .brand .brand-logo{
+    position:absolute!important;
+    left:50%!important;
+    top:50%!important;
+    transform:translate(-50%,-50%)!important;
+    width:174px!important;
+    height:76px!important;
+    object-fit:contain!important;
+    margin:0!important;
+    padding:0!important;
+    filter:none!important;
+    opacity:1!important;
+    z-index:1002!important;
+  }
+
+  header.topbar .brand .brand-monogram{
+    position:absolute!important;
+    left:18px!important;
+    top:50%!important;
+    transform:translateY(-50%)!important;
+    width:48px!important;
+    height:68px!important;
+    object-fit:contain!important;
+    margin:0!important;
+    padding:0!important;
+    filter:none!important;
+    opacity:1!important;
+    z-index:1002!important;
+  }
+
+  header.topbar .brand .brand-divider{display:none!important}
+
+  header.topbar .menu{
+    display:block!important;
+    position:absolute!important;
+    right:18px!important;
+    left:auto!important;
+    top:50%!important;
+    transform:translateY(-50%)!important;
+    width:48px!important;
+    min-width:48px!important;
+    height:48px!important;
+    min-height:48px!important;
+    padding:0!important;
+    margin:0!important;
+    border:0!important;
+    background:transparent!important;
+    color:#fff!important;
+    -webkit-text-fill-color:#fff!important;
+    font-size:2rem!important;
+    line-height:48px!important;
+    text-align:center!important;
+    z-index:1004!important;
+  }
+
+  header.topbar nav{
+    display:none!important;
+    position:absolute!important;
+    top:102px!important;
+    left:0!important;
+    right:0!important;
+    width:100%!important;
+    margin:0!important;
+    padding:20px 28px 24px!important;
+    background:#000!important;
+    color:#fff!important;
+    z-index:1003!important;
+    flex-direction:column!important;
+    gap:0!important;
+    box-shadow:none!important;
+  }
+
+  header.topbar nav.open{display:flex!important}
+
+  header.topbar nav a{
+    display:block!important;
+    width:100%!important;
+    padding:17px 0!important;
+    margin:0!important;
+    color:#fff!important;
+    -webkit-text-fill-color:#fff!important;
+    opacity:1!important;
+    visibility:visible!important;
+    font-size:.92rem!important;
+    font-weight:700!important;
+    line-height:1.2!important;
+    letter-spacing:.14em!important;
+    text-transform:uppercase!important;
+    text-decoration:none!important;
+    border-bottom:1px solid rgba(255,255,255,.24)!important;
+  }
+  header.topbar nav a:last-child{border-bottom:0!important}
+}
+
+@media (max-width:420px){
+  header.topbar,header.topbar.inner{min-height:98px!important}
+  header.topbar .brand{height:98px!important}
+  header.topbar .brand .brand-logo{width:164px!important;height:72px!important}
+  header.topbar .brand .brand-monogram{left:16px!important;width:44px!important;height:62px!important}
+  header.topbar .menu{right:16px!important;width:44px!important;min-width:44px!important}
+  header.topbar nav{top:98px!important}
+}
+
+@media (max-width:360px){
+  header.topbar,header.topbar.inner{min-height:94px!important}
+  header.topbar .brand{height:94px!important}
+  header.topbar .brand .brand-logo{width:150px!important;height:68px!important}
+  header.topbar .brand .brand-monogram{left:14px!important;width:40px!important;height:58px!important}
+  header.topbar .menu{right:14px!important;width:40px!important;min-width:40px!important}
+  header.topbar nav{top:94px!important}
+}
