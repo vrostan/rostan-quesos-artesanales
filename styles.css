@@ -800,3 +800,85 @@ footer .footer-monogram{
   .topbar .brand .brand-divider{height:39px!important}
   .topbar nav{top:86px!important}
 }
+
+/* V6.18 — ajuste final de cabecera.
+   Desktop: monograma y logo con la misma ALTURA VISUAL.
+   Mobile: cabecera crema, marca negra, más grande y centrada. */
+@media(min-width:761px){
+  .topbar .brand .brand-logo{
+    width:230px!important;
+    height:96px!important;
+  }
+  /* El PNG del monograma tiene menos margen interno que el logo; esta altura
+     compensa sus lienzos para igualar la altura visible de ambos símbolos. */
+  .topbar .brand .brand-monogram{
+    width:59px!important;
+    height:81px!important;
+  }
+  .topbar .brand .brand-divider{height:60px!important}
+}
+
+@media(max-width:760px){
+  .topbar,
+  .topbar.inner{
+    position:relative!important;
+    background:#f5f0e4!important;
+    color:#000!important;
+    min-height:104px!important;
+    padding:8px 56px 8px 12px!important;
+  }
+  .topbar .brand{
+    position:absolute!important;
+    left:50%!important;
+    top:50%!important;
+    transform:translate(-50%,-50%)!important;
+    display:flex!important;
+    align-items:center!important;
+    justify-content:center!important;
+    gap:9px!important;
+    width:max-content!important;
+    max-width:calc(100% - 92px)!important;
+    margin:0!important;
+  }
+  .topbar .brand .brand-logo{
+    width:178px!important;
+    height:80px!important;
+    filter:brightness(0)!important;
+  }
+  .topbar .brand .brand-monogram{
+    width:49px!important;
+    height:68px!important;
+    filter:brightness(0)!important;
+  }
+  .topbar .brand .brand-divider{
+    height:49px!important;
+    background:rgba(0,0,0,.38)!important;
+  }
+  .topbar .menu{
+    color:#000!important;
+    right:14px!important;
+  }
+  .topbar nav{
+    top:104px!important;
+    background:#000!important;
+  }
+  .hero-copy h1{font-size:clamp(3.15rem,14vw,4.15rem)!important;line-height:.91!important}
+}
+
+@media(max-width:420px){
+  .topbar,.topbar.inner{min-height:100px!important;padding-right:52px!important}
+  .topbar .brand{gap:7px!important;max-width:calc(100% - 86px)!important}
+  .topbar .brand .brand-logo{width:164px!important;height:75px!important}
+  .topbar .brand .brand-monogram{width:45px!important;height:63px!important}
+  .topbar .brand .brand-divider{height:45px!important}
+  .topbar nav{top:100px!important}
+  .hero-copy h1{font-size:clamp(3rem,13.4vw,3.85rem)!important}
+}
+
+@media(max-width:360px){
+  .topbar,.topbar.inner{min-height:94px!important}
+  .topbar .brand .brand-logo{width:148px!important;height:68px!important}
+  .topbar .brand .brand-monogram{width:41px!important;height:57px!important}
+  .topbar .brand .brand-divider{height:41px!important}
+  .topbar nav{top:94px!important}
+}
