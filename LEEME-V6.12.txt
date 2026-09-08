@@ -1,0 +1,7 @@
+V6.12 — correcciones mobile
+- Menú hamburguesa funcional en todas las páginas.
+- Navegación móvil accesible y cerrable.
+- Correcciones de overflow/recortes en Historia, Quesos, Reconocimientos y Contacto.
+- Fotos históricas y de premios completas en pantallas angostas.
+- Email, mapa, modales y títulos adaptados a celular.
+- Diseño desktop preservado.

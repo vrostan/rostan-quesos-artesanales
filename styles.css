@@ -447,3 +447,64 @@ h1,h2,h3,.cheese-name,.modal-box h2,.timeline-title{font-family:'Rostan Sans','A
   object-position:center center!important;
   transform:none!important;
 }
+
+
+/* V6.12 — pasada específica mobile: navegación + prevención de recortes */
+html,body{max-width:100%;overflow-x:hidden}
+img,iframe{max-width:100%}
+body.modal-open{overflow:hidden}
+
+@media(max-width:760px){
+  .topbar{z-index:1000}
+  .topbar.inner{position:relative}
+  .menu{display:block;position:relative;z-index:1002;min-width:44px;min-height:44px;padding:4px 8px;line-height:1;color:#fff;cursor:pointer}
+  .topbar nav{
+    display:none;position:absolute;z-index:1001;top:100%;left:0;right:0;width:100%;
+    background:#000;padding:18px 22px 24px;flex-direction:column;gap:0;
+    box-shadow:0 12px 24px rgba(0,0,0,.22)
+  }
+  .topbar nav.open{display:flex}
+  .topbar nav a{display:block;width:100%;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.18);font-size:.84rem}
+  .topbar nav a:last-child{border-bottom:0}
+
+  h1,h2,h3,.history-copy h1,.awards-page>h1,.contact-page h1,.timeline-title{overflow-wrap:break-word;word-break:normal}
+  .history-copy h1,.awards-page>h1,.contact-page h1{font-size:clamp(2.8rem,14vw,4.5rem);line-height:.92}
+  .section-head h2{font-size:clamp(2.7rem,13vw,4.2rem);line-height:.92}
+
+  .history-top,.history-copy,.history-family,.history-archive.clean,
+  .award-feature,.award-timeline,.award-year,.award-2022,.award-gallery,
+  .contact-page,.contact-info,.map-wrap,.grid,.card{min-width:0;max-width:100%}
+
+  .history-family img{width:100%;height:auto;object-fit:contain}
+  .history-archive.clean{grid-template-columns:1fr!important}
+  .history-archive.clean .archive-card img{width:100%;height:auto!important;max-height:none!important;object-fit:contain!important}
+
+  .award-timeline{grid-template-columns:1fr!important}
+  .award-feature{grid-template-columns:1fr!important;gap:0}
+  .award-feature img{width:100%;height:auto;max-height:none;object-fit:contain}
+  .award-feature>div{padding:24px 20px 28px}
+  .award-2022,.award-2006{grid-column:auto!important;grid-template-columns:1fr!important}
+  .award-history-feature{grid-column:auto!important}
+  .award-gallery-2022{grid-template-columns:1fr!important;grid-template-rows:none!important}
+  .award-gallery-2022 img,.award-history-photo img,.award-history-feature img{width:100%;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important}
+  .award-year{padding-right:0}
+
+  .contact-page{grid-template-columns:1fr!important;gap:42px}
+  .contact-links a{overflow-wrap:anywhere;word-break:break-word}
+  .map-wrap iframe{width:100%;height:360px}
+
+  .modal{padding:12px;align-items:flex-start;overflow-y:auto}
+  .modal-box{width:100%;max-width:100%;max-height:none;margin:12px 0;padding:42px 20px 28px;overflow:visible}
+  .modal-title-img{max-width:100%!important;width:100%!important;height:auto!important}
+  .close{position:absolute;right:10px;top:6px;min-width:44px;min-height:44px}
+}
+
+@media(max-width:420px){
+  .topbar{padding:12px 14px}
+  .brand img{width:92px;height:50px}
+  .hero-copy{padding-left:18px;padding-right:18px}
+  .history-editorial,.cheeses,.awards-page,.contact-page{padding-left:18px!important;padding-right:18px!important}
+  .grid .card>div{padding-left:16px!important;padding-right:16px!important}
+  .grid .card .cheese-title-img{max-width:100%!important;width:100%!important;height:auto!important}
+  footer{padding-left:18px;padding-right:18px;text-align:center}
+}

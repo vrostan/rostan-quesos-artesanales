@@ -98,22 +98,51 @@ const data={
 };
 
 const modal=document.querySelector('#modal');
-document.querySelectorAll('[data-modal]').forEach(b=>b.onclick=()=>{
-  const d=data[b.dataset.modal];
-  const titleImg=document.querySelector('#modal-title-img');
-  titleImg.src=`images/cheese-titles-png/${b.dataset.modal}.png`;
-  titleImg.alt=d.title.toUpperCase();
-  const mark=titleImg;
-  mark.style.setProperty('--title-svg', `url('images/cheese-titles/${b.dataset.modal}.svg')`);
-  document.querySelector('#modal-desc').textContent=d.desc;
-  document.querySelector('#modal-use').textContent=d.use;
-  document.querySelector('#modal-pack').textContent=d.pack;
-  modal.classList.add('show');
-});
-document.querySelector('.close').onclick=()=>modal.classList.remove('show');
-modal.onclick=e=>{if(e.target===modal)modal.classList.remove('show')};
-document.querySelector('.menu').onclick=()=>document.querySelector('.topbar nav').classList.toggle('open');
-document.querySelectorAll('.topbar nav a').forEach(a=>a.onclick=()=>document.querySelector('.topbar nav').classList.remove('open'));
+const closeBtn=document.querySelector('.close');
+const menuBtn=document.querySelector('.menu');
+const topNav=document.querySelector('.topbar nav');
+
+// Fichas de quesos: solo se inicializan en las páginas donde existe el modal.
+if(modal){
+  document.querySelectorAll('[data-modal]').forEach(b=>b.onclick=()=>{
+    const d=data[b.dataset.modal];
+    const titleImg=document.querySelector('#modal-title-img');
+    if(titleImg){
+      titleImg.src=`images/cheese-titles-png/${b.dataset.modal}.png`;
+      titleImg.alt=d.title.toUpperCase();
+      titleImg.style.setProperty('--title-svg', `url('images/cheese-titles/${b.dataset.modal}.svg')`);
+    }
+    const desc=document.querySelector('#modal-desc');
+    const use=document.querySelector('#modal-use');
+    const pack=document.querySelector('#modal-pack');
+    if(desc) desc.textContent=d.desc;
+    if(use) use.textContent=d.use;
+    if(pack) pack.textContent=d.pack;
+    modal.classList.add('show');
+    document.body.classList.add('modal-open');
+  });
+  if(closeBtn) closeBtn.onclick=()=>{modal.classList.remove('show');document.body.classList.remove('modal-open')};
+  modal.onclick=e=>{if(e.target===modal){modal.classList.remove('show');document.body.classList.remove('modal-open')}};
+}
+
+// Navegación móvil: funciona en TODAS las páginas, tengan o no modal.
+if(menuBtn && topNav){
+  menuBtn.setAttribute('aria-expanded','false');
+  menuBtn.setAttribute('aria-controls','site-nav');
+  topNav.id='site-nav';
+  menuBtn.onclick=()=>{
+    const open=topNav.classList.toggle('open');
+    menuBtn.setAttribute('aria-expanded', String(open));
+    menuBtn.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+    menuBtn.textContent=open ? '×' : '☰';
+  };
+  topNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+    topNav.classList.remove('open');
+    menuBtn.setAttribute('aria-expanded','false');
+    menuBtn.setAttribute('aria-label','Abrir menú');
+    menuBtn.textContent='☰';
+  }));
+}
 
 // V5: lleva el color oficial de la variedad a su ficha modal.
 document.querySelectorAll('[data-modal]').forEach(b=>b.addEventListener('click',()=>{
