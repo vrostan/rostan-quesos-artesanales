@@ -1,0 +1,5 @@
+ROSTÁN WEB V6.16
+- Cabecera estilo opción B: monograma + separador + logo principal.
+- Logo principal agrandado para mejorar la lectura de “QUESOS ARTESANALES”.
+- Ajustes responsive específicos para 760, 420 y 360 px.
+- Se mantienen las correcciones mobile y el footer de V6.15.
