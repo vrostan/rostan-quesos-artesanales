@@ -634,3 +634,23 @@ footer .footer-monogram{
     height:58px!important;
   }
 }
+
+/* V6.15 — marca más legible en cabecera y un único sello al cierre */
+.brand img{
+  width:174px!important;
+  height:88px!important;
+}
+@media(max-width:760px){
+  .brand img{
+    width:148px!important;
+    height:72px!important;
+  }
+  .topbar{padding-top:12px!important;padding-bottom:12px!important}
+  .topbar nav{top:86px!important}
+}
+@media(max-width:420px){
+  .brand img{
+    width:142px!important;
+    height:70px!important;
+  }
+}

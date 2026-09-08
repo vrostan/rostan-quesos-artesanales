@@ -1,0 +1,5 @@
+V6.15
+- Logo de cabecera más grande en desktop y mobile para mejorar la lectura de “Quesos Artesanales”.
+- Quesos: el footer ahora usa el monograma/isologo, no el logo principal.
+- Nuestra historia: se eliminó la marca adicional al final del relato; queda solamente el monograma/isologo del footer.
+- Se mantienen las correcciones responsive/mobile de V6.13 y V6.14.
