@@ -1,0 +1,7 @@
+ROSTÁN WEB V6.14
+
+Cambios sobre V6.13:
+- Logo del header ligeramente más grande en desktop y celular.
+- Monograma Rostán agregado como sello centrado en el footer de todas las páginas.
+- Monograma agregado como firma visual al final del relato de Nuestra historia.
+- Se mantienen los ajustes mobile de V6.13 y el diseño desktop existente.
