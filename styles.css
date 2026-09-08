@@ -508,3 +508,66 @@ body.modal-open{overflow:hidden}
   .grid .card .cheese-title-img{max-width:100%!important;width:100%!important;height:auto!important}
   footer{padding-left:18px;padding-right:18px;text-align:center}
 }
+\n\n/* V6.13 — ajustes finos de títulos en celular: nunca cortar palabras */
+.keep-word{white-space:nowrap}
+
+@media(max-width:760px){
+  /* Nunca partir palabras dentro de títulos. */
+  h1,h2,h3,.history-copy h1,.awards-page>h1,.contact-page h1,.timeline-title{
+    overflow-wrap:normal!important;
+    word-break:normal!important;
+    hyphens:none!important;
+  }
+
+  /* Hero de Inicio: las dos líneas entran completas dentro de la pantalla. */
+  .hero-v6 .hero-copy{
+    width:100%!important;
+    max-width:100%!important;
+    padding-left:20px!important;
+    padding-right:20px!important;
+  }
+  .hero-v6 h1{
+    font-size:clamp(2.35rem,10.8vw,3.15rem)!important;
+    line-height:.92!important;
+    letter-spacing:-.035em!important;
+    max-width:100%!important;
+  }
+  .hero-location{
+    width:100%!important;
+    max-width:100%!important;
+    font-size:.70rem!important;
+    letter-spacing:.08em!important;
+    line-height:1.35!important;
+    white-space:normal!important;
+  }
+
+  /* Contacto: "Encontranos" queda siempre entero y el título corta solo en espacios. */
+  .contact-page h1{
+    font-size:clamp(2.45rem,11.7vw,3.55rem)!important;
+    line-height:.94!important;
+    letter-spacing:-.035em!important;
+    text-wrap:balance;
+  }
+
+  /* Historia: "generaciones" nunca se corta. */
+  .history-copy h1{
+    font-size:clamp(2.45rem,11.5vw,3.7rem)!important;
+    line-height:.94!important;
+    letter-spacing:-.04em!important;
+  }
+}
+
+@media(max-width:420px){
+  .hero-v6 .hero-copy{padding-left:20px!important;padding-right:20px!important}
+  .hero-v6 h1{font-size:2.30rem!important}
+  .hero-location{font-size:.66rem!important;letter-spacing:.065em!important}
+  .contact-page h1{font-size:2.55rem!important}
+  .history-copy h1{font-size:2.48rem!important}
+}
+
+@media(max-width:360px){
+  .hero-v6 h1{font-size:2.12rem!important}
+  .hero-location{font-size:.62rem!important;letter-spacing:.045em!important}
+  .contact-page h1{font-size:2.35rem!important}
+  .history-copy h1{font-size:2.28rem!important}
+}
