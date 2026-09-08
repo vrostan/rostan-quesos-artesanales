@@ -1,0 +1,8 @@
+ROSTÁN WEB V6.17
+
+Cambios respecto de V6.16:
+- La cabecera con isologo + logo se aplica de forma consistente a todas las páginas.
+- Isologo y logo tienen la misma altura de caja visual.
+- En móvil, el conjunto de marca queda centrado en la barra.
+- La hamburguesa queda fijada a la derecha y no desplaza el logo.
+- Se mantiene el resto de correcciones mobile de versiones anteriores.

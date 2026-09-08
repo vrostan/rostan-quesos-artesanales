@@ -712,3 +712,91 @@ footer .footer-monogram{
   .topbar .brand .brand-monogram{width:27px!important;height:39px!important}
   .topbar .brand .brand-logo{width:145px!important;height:66px!important}
 }
+
+/* V6.17 — cabecera consistente en todas las páginas.
+   Isologo y logo con la misma altura visual; grupo centrado en móvil. */
+.topbar .brand{
+  display:flex!important;
+  align-items:center!important;
+  gap:14px!important;
+}
+.topbar .brand .brand-monogram,
+.topbar .brand .brand-logo{
+  height:82px!important;
+  object-fit:contain!important;
+  display:block!important;
+}
+.topbar .brand .brand-monogram{
+  width:64px!important;
+}
+.topbar .brand .brand-logo{
+  width:208px!important;
+}
+.topbar .brand .brand-divider{
+  height:58px!important;
+}
+
+@media(max-width:760px){
+  .topbar{
+    min-height:94px!important;
+    padding:10px 58px 10px 14px!important;
+    position:relative;
+  }
+  .topbar .brand{
+    position:absolute!important;
+    left:50%!important;
+    top:50%!important;
+    transform:translate(-50%,-50%)!important;
+    gap:9px!important;
+    margin:0!important;
+    max-width:calc(100% - 104px)!important;
+    z-index:1001!important;
+  }
+  .topbar .brand .brand-monogram,
+  .topbar .brand .brand-logo{
+    height:68px!important;
+  }
+  .topbar .brand .brand-monogram{
+    width:48px!important;
+    flex:0 0 48px!important;
+  }
+  .topbar .brand .brand-logo{
+    width:158px!important;
+    flex:0 0 158px!important;
+  }
+  .topbar .brand .brand-divider{
+    height:46px!important;
+    flex:0 0 1px!important;
+  }
+  .topbar .menu{
+    position:absolute!important;
+    right:14px!important;
+    top:50%!important;
+    transform:translateY(-50%)!important;
+    margin:0!important;
+    z-index:1002!important;
+  }
+  .topbar nav{top:94px!important}
+}
+
+@media(max-width:420px){
+  .topbar{min-height:90px!important;padding-right:54px!important}
+  .topbar .brand{gap:7px!important;max-width:calc(100% - 96px)!important}
+  .topbar .brand .brand-monogram,
+  .topbar .brand .brand-logo{height:64px!important}
+  .topbar .brand .brand-monogram{width:44px!important;flex-basis:44px!important}
+  .topbar .brand .brand-logo{width:150px!important;flex-basis:150px!important}
+  .topbar .brand .brand-divider{height:43px!important}
+  .topbar nav{top:90px!important}
+}
+
+@media(max-width:360px){
+  .topbar{min-height:86px!important;padding-right:50px!important}
+  .topbar .brand{gap:6px!important}
+  .topbar .brand .brand-monogram,
+  .topbar .brand .brand-logo{height:59px!important}
+  .topbar .brand .brand-monogram{width:40px!important;flex-basis:40px!important}
+  .topbar .brand .brand-logo{width:138px!important;flex-basis:138px!important}
+  .topbar .brand .brand-divider{height:39px!important}
+  .topbar nav{top:86px!important}
+}
