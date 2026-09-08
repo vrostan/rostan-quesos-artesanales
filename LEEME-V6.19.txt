@@ -1,0 +1,9 @@
+ROSTÁN WEB V6.19
+
+Cambios:
+- Mobile: header negro en todas las páginas.
+- Mobile: logo e isologo blancos.
+- Mobile: logo ROSTÁN centrado independientemente.
+- Mobile: isologo a la izquierda con el mismo margen lateral que la hamburguesa a la derecha.
+- Desktop: se conserva el header aprobado de V6.18.
+- Se mantienen las correcciones responsive anteriores.

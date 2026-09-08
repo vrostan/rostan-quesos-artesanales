@@ -882,3 +882,77 @@ footer .footer-monogram{
   .topbar .brand .brand-divider{height:41px!important}
   .topbar nav{top:94px!important}
 }
+
+/* V6.19 — cabecera mobile final.
+   Fondo negro + marca blanca en todas las páginas.
+   Logo ROSTÁN centrado de forma independiente.
+   Isologo a la izquierda, a la misma distancia del borde que la hamburguesa a la derecha. */
+@media(max-width:760px){
+  .topbar,
+  .topbar.inner{
+    position:relative!important;
+    background:#000!important;
+    color:#fff!important;
+    min-height:104px!important;
+    padding:8px 14px!important;
+  }
+  .topbar .brand{
+    position:static!important;
+    transform:none!important;
+    display:block!important;
+    width:auto!important;
+    max-width:none!important;
+    margin:0!important;
+  }
+  .topbar .brand .brand-logo{
+    position:absolute!important;
+    left:50%!important;
+    top:50%!important;
+    transform:translate(-50%,-50%)!important;
+    width:184px!important;
+    height:82px!important;
+    object-fit:contain!important;
+    filter:none!important;
+    margin:0!important;
+  }
+  .topbar .brand .brand-monogram{
+    position:absolute!important;
+    left:14px!important;
+    top:50%!important;
+    transform:translateY(-50%)!important;
+    width:52px!important;
+    height:72px!important;
+    object-fit:contain!important;
+    filter:none!important;
+    margin:0!important;
+  }
+  .topbar .brand .brand-divider{display:none!important}
+  .topbar .menu{
+    position:absolute!important;
+    right:14px!important;
+    top:50%!important;
+    transform:translateY(-50%)!important;
+    color:#fff!important;
+    margin:0!important;
+  }
+  .topbar nav{
+    top:104px!important;
+    background:#000!important;
+  }
+}
+
+@media(max-width:420px){
+  .topbar,.topbar.inner{min-height:100px!important;padding:8px 12px!important}
+  .topbar .brand .brand-logo{width:172px!important;height:78px!important}
+  .topbar .brand .brand-monogram{left:12px!important;width:48px!important;height:67px!important}
+  .topbar .menu{right:12px!important}
+  .topbar nav{top:100px!important}
+}
+
+@media(max-width:360px){
+  .topbar,.topbar.inner{min-height:94px!important;padding-left:10px!important;padding-right:10px!important}
+  .topbar .brand .brand-logo{width:158px!important;height:72px!important}
+  .topbar .brand .brand-monogram{left:10px!important;width:44px!important;height:61px!important}
+  .topbar .menu{right:10px!important}
+  .topbar nav{top:94px!important}
+}
