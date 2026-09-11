@@ -1111,3 +1111,14 @@ footer .footer-monogram{
   width:100%!important; height:auto!important; aspect-ratio:4/3!important;
   object-fit:cover!important; object-position:center center!important; transform:none!important;
 }
+
+
+/* V6.23 — encuadres completos y título Nietense */
+.grid .card[data-cheese="maasdam"]>img,
+.grid .card[data-cheese="sbrinz"]>img{
+  width:100%!important; height:auto!important; aspect-ratio:4/3!important;
+  object-fit:cover!important; object-position:center center!important; transform:none!important;
+}
+.grid .card[data-cheese="sardo-oregano"] .cheese-title-img{
+  width:220px!important; height:40px!important; object-fit:contain!important;
+}
