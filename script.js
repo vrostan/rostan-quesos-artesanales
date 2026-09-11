@@ -1,7 +1,7 @@
 const data={
   "cacciocavallo": {
     "title": "Cacciocavallo",
-    "desc": "De forma similar a una pera y corteza lisa y homogénea, se distingue por su delicada cobertura de orégano, pimentón, ajo y perejil, que realza su aroma y sabor inconfundible. Es un queso de masa semidura y pasta hilada, presenta una textura elástica y uniforme, sin ojos biológicos, y un color blanco amarillento. Su sabor es suavemente láctico, enriquecido por las notas aromáticas de las hierbas y especias, las son esterilizadas para garantizar su inocuidad sin comprometer su carácter.",
+    "desc": "De forma similar a una pera y corteza lisa y homogénea, se distingue por su delicada cobertura de orégano, pimentón, ajo y perejil, que realza su aroma y sabor inconfundible. Es un queso de masa semidura y pasta hilada, presenta una textura elástica y uniforme, sin ojos biológicos, y un color blanco amarillento. Su sabor es suavemente láctico, enriquecido por las notas aromáticas de las hierbas y especias, las que son esterilizadas para garantizar su inocuidad sin comprometer su carácter.",
     "use": "Versátil y delicioso, es ideal tanto para ensaladas frías como para platos calientes, ya que posee una excelente capacidad de derretimiento y gratinado.",
     "pack": "Horma al vacío — 250 gr"
   },
@@ -54,9 +54,9 @@ const data={
     "pack": "Presentación (con o sin sal): Horma al vacío — 1 kg"
   },
   "muzarella": {
-    "title": "Muzarella",
+    "title": "Muzzarella",
     "desc": "De forma rectangular y caras planas, se presenta sin corteza y envasada al vacío. Tiene sabor ligeramente acidulado y aroma láctico, fresco y delicado, ofrece una masa lisa, elástica y resistente al corte, que permite un feteado preciso y uniforme. Su color varía entre blanco y amarillo pálido.",
-    "use": "Al calentarse, desarrolla una excelente elasticidad, un derretimiento homogéneo y una separación de aceite equilibrada, cualidades esenciales que hacen de esta muzarella una elección ideal para pizzas, empanadas, sándwiches y gratinados.",
+    "use": "Al calentarse, desarrolla una excelente elasticidad, un derretimiento homogéneo y una separación de aceite equilibrada, cualidades esenciales que hacen de esta muzzarella una elección ideal para pizzas, empanadas, sándwiches y gratinados.",
     "pack": "Horma al vacío — 4 kg · 1/2 horma envasada — 2 kg · Fracción envasada — 350 gr"
   },
   "parmesano": {
@@ -78,7 +78,7 @@ const data={
     "pack": "Horma — 3 kg · Cuña envasada — 375 gr"
   },
   "sardo-oregano": {
-    "title": "Sardo con orégano",
+    "title": "Nietense",
     "desc": "Queso de pasta semidura, con orégano agregado en su masa, que aporta un carácter especiado, equilibrado y suave. De textura compacta y firme, presenta un color amarillo pálido. Su maduración le otorga una personalidad única.",
     "use": "Ideal para disfrutar en tablas de quesos. También es excelente para rallar o fundir.",
     "pack": "Horma — 3 kg · Cuña envasada — 375 gr"
