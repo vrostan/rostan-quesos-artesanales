@@ -1,0 +1,8 @@
+ROSTÁN WEB V6.24
+
+Cambios:
+- Maasdam: nuevo recorte 4:3 que muestra la rueda completa dentro de la tarjeta.
+- Sbrinz: nuevo recorte 4:3 que muestra la rueda completa dentro de la tarjeta.
+- Nietense: nombre con la misma escala visual que el resto de los nombres del catálogo, manteniendo el verde de Pepato.
+
+Publicación: copiar el CONTENIDO de esta carpeta al repositorio local, reemplazar archivos, Commit to main y Push origin.
