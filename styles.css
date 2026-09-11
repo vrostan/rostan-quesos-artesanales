@@ -1103,3 +1103,11 @@ footer .footer-monogram{
 .grid .card .product-photo-placeholder{width:100%;aspect-ratio:4/3;background:#eee8dd;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.35rem;text-align:center;color:#000;}
 .grid .card .product-photo-placeholder span{font-family:Arial,sans-serif;font-size:1.05rem;letter-spacing:.14em;font-weight:700;}
 .grid .card .product-photo-placeholder small{font-family:Arial,sans-serif;font-size:.67rem;letter-spacing:.12em;}
+
+
+/* V6.22 — ajustes finales solicitados */
+.grid .card[data-cheese="maasdam"]>img,
+.grid .card[data-cheese="sbrinz"]>img{
+  width:100%!important; height:auto!important; aspect-ratio:4/3!important;
+  object-fit:cover!important; object-position:center center!important; transform:none!important;
+}
